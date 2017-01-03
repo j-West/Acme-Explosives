@@ -1,0 +1,7 @@
+.hidden-stuff {
+  display: none;
+}
+
+.dropdown, .dropdown-menu {
+  padding: 0 45%;
+}
