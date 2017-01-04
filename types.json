@@ -2,38 +2,38 @@
     "types": [
         {
             "id": 0,
-            "category": 0,
-            "name": "personal",
+            "category_id": 0,
+            "name": "Amateur",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 1,
-            "category": 0,
-            "name": "personal",
+            "category_id": 0,
+            "name": "Semi-pro",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 2,
-            "category": 0,
-            "name": "personal",
+            "category_id": 0,
+            "name": "Pro",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 3,
-            "category": 1,
-            "name": "work",
+            "category_id": 1,
+            "name": "Silver",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 4,
-            "category": 1,
-            "name": "work",
+            "category_id": 1,
+            "name": "Gold",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         },
         {
             "id": 5,
-            "category": 1,
-            "name": "work",
+            "category_id": 1,
+            "name": "Platinum",
             "description": "Fireworks intended for recreational use during holiday celebrations"
         }
     ]

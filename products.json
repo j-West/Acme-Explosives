@@ -2,111 +2,111 @@
     "products": [
       {
             "id": 0,
-            "type": 0,
-            "name": "id=0, type=0",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 0,
+            "name": "Peony",
+            "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu."
       },
       {
             "id": 1,
-            "type": 0,
-            "name": "id=1, type=0",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 0,
+            "name": "Chrysanthamum",
+            "description": "Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat"
       },
       {
             "id": 2,
-            "type": 0,
-            "name": "id=2, type=0",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 0,
+            "name": "Willow",
+            "description": "Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus."
       },
       {
             "id": 3,
-            "type": 1,
-            "name": "id=3, type=1",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 1,
+            "name": "Diadem",
+            "description": "Phasellus ultrices nulla quis nibh. Quisque a lectus."
       },
       {
             "id": 4,
-            "type": 1,
-            "name": "id=4, type=1",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 1,
+            "name": "Palm",
+            "description": "Donec consectetuer ligula vulputate sem tristique cursus."
       },
       {
             "id": 5,
-            "type": 1,
-            "name": "id=5, type=1",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 1,
+            "name": "Crossette",
+            "description": "Sed adipiscing ornare risus."
       },
       {
             "id": 6,
-            "type": 2,
-            "name": "id=6, type=2",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 2,
+            "name": "Horsetail",
+            "description": "Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi."
       },
       {
             "id": 7,
-            "type": 2,
-            "name": "id=7, type=2",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 2,
+            "name": "Ring",
+            "description": "Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. "
       },
       {
             "id": 8,
-            "type": 2,
-            "name": "id=8, type=2",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 2,
+            "name": "Roman Candle",
+            "description": "Pellentesque fermentum dolor."
       },
       {
             "id": 9,
-            "type": 3,
-            "name": "id=9, type=3",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 3,
+            "name": "Batter",
+            "description": "Pellentesque egestas sem. Suspendisse commodo ullamcorper magna."
       },
       {
             "id": 10,
-            "type": 3,
-            "name": "id=10, type=3",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 3,
+            "name": "Cake",
+            "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
       },
       {
             "id": 11,
-            "type": 3,
-            "name": "id=11, type=3",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 3,
+            "name": "Bip",
+            "description": "Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus."
       },
       {
             "id": 12,
-            "type": 4,
-            "name": "id=12, type=4",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 4,
+            "name": "Bop",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
       },
       {
             "id": 13,
-            "type": 4,
-            "name": "id=13, type=4",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 4,
+            "name": "Boo",
+            "description": "Donec odio. Quisque volutpat mattis eros."
       },
       {
             "id": 14,
-            "type": 4,
-            "name": "id=14, type=4",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 4,
+            "name": "Cupcake",
+            "description": "Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
       },
       {
             "id": 15,
-            "type": 5,
-            "name": "id=15, type=5",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 5,
+            "name": "Pear",
+            "description": "Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
       },
       {
             "id": 16,
-            "type": 5,
-            "name": "id=16, type=5",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 5,
+            "name": "Peach",
+            "description": "Morbi in sem quis dui placerat ornare."
       },
       {
             "id": 17,
-            "type": 5,
-            "name": "id=17, type=5",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "type_id": 5,
+            "name": "Sun",
+            "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. "
       }
   ]
 }
