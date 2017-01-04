@@ -16,11 +16,10 @@ function displayProducts() {
       <p>${products[i].description}</p>
       <p><a href="#" class="btn btn-primary" role="button">Buy Now</a> <a href="#" class="btn btn-default" role="button">Add To Cart</a></p>
     `
-}
+  }
 }
 
 function formattingProducts() {
-  // console.log(products);
   for (var i = 0; i < products.length; i++) {
     switch (products[i].type_id) {
       case 0:
@@ -43,7 +42,6 @@ function formattingProducts() {
         break;
     }
   }
-  // console.log(products);
   displayProducts()
 }
 
@@ -76,23 +74,20 @@ function loadData() {
         function(val) {
         products = val
         console.log("promise three resolved, ", products)
-
       })
-   .then(formattingProducts)
+      .then(formattingProducts)
 
 
   var promise2 = new Promise(function(resolve, reject){
     var request2 = new XMLHttpRequest()
     request2.addEventListener("load", function() {
       typeList = JSON.parse(request2.responseText).types
-
-    let list = typeList.map((typeList) => {
+      let list = typeList.map((typeList) => {
       return typeList
-    }).filter(function(list, i) {
+      }).filter(function(list) {
         if(list.category_id === selectedCat)
         return typeList
-      })
-      // console.log(typeList);
+        })
       resolve(list)
     })
     request2.open("GET", "types.json")
@@ -103,13 +98,10 @@ function loadData() {
     var request3 = new XMLHttpRequest()
     request3.addEventListener("load", function() {
       var list = JSON.parse(request3.responseText).products
-      // console.log(list);
-      // console.log(typeList);
       list = list.filter((list) => {
         if(list.type_id === types[0].id || list.type_id === types[1].id || list.type_id === types[2].id)
         return list
       })
-      // console.log(list);
       resolve(list)
     })
     request3.open("GET", "products.json")
